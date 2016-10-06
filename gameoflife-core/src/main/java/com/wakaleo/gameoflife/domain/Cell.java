@@ -6,7 +6,7 @@ public enum Cell {
     private String symbol;
 
     private Cell(final String initialSymbol) {
-        this.symbol = initialSymbol;
+        symbol = initialSymbol;
     }
 
     @Override
@@ -28,4 +28,5 @@ public enum Cell {
     public String getSymbol() {
         return symbol;
     }
+
 }
